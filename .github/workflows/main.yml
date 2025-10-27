@@ -1,0 +1,16 @@
+name: "Manual + 5min interval action"
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "*/5 * * * *"  # هر ۵ دقیقه
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Run a quick echo step
+        run: echo "سلام — این اکشن هر ۵ دقیقه اجرا می‌شود! (manual + schedule)"
