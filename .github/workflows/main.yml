@@ -2,8 +2,6 @@ name: "Manual + 5min interval action"
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: "*/5 * * * *"  # هر ۵ دقیقه
 
 jobs:
   test:
