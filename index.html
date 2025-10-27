@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>فلش‌کارت یادگیری</title>
+
+  <!-- لینک به فایل استایل -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- فونت گوگل (اختیاری) -->
+  <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="container">
+    <h1>📚 فلش‌کارت یادگیری</h1>
+
+    <!-- فرم افزودن کارت جدید -->
+    <div class="add-card">
+      <input type="text" id="question" placeholder="سؤال را وارد کنید..." />
+      <input type="text" id="answer" placeholder="پاسخ را وارد کنید..." />
+      <button id="addBtn">➕ افزودن کارت</button>
+    </div>
+
+    <!-- بخش نمایش فلش‌کارت‌ها -->
+    <div id="flashcards" class="flashcards"></div>
+
+    <!-- دکمه حذف همه -->
+    <button id="clearBtn" class="clear-btn">🗑 حذف همه کارت‌ها</button>
+  </div>
+
+  <!-- فایل اسکریپت -->
+  <script src="script.js"></script>
+</body>
+</html>
