@@ -1,1 +1,2 @@
         run: echo "سلام — این اولین اکشن من! (manual step)"
+        run: echo "سلام — این اولین اکشن من! (manual step)"
